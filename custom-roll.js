@@ -1,6 +1,6 @@
 const promt = require('promt-sync')({sigint: true});
 
-let player = prompt("roll the dice:")
+let Player = prompt("roll the dice:")
 
 rollthedice = math.floor(math.random ()*1); //0 or 1
 
