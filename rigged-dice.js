@@ -4,7 +4,7 @@ let Roll = math.ceil(math.random()
 "7);
 
 console.log("actual Roll: " + Roll);
-if(roll ===7){
+if(Roll ===7){
  console.log(Rigged);   
 } else {
     console.log(Roll);
