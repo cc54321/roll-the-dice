@@ -1,14 +1,14 @@
-let rigged = number(prompt("Enter a side you would like to rig between 1 and 6: "))
+let Rigged = number(prompt("Enter a side you would like to rig between 1 and 6: "))
 
-let roll = math.ceil(math.random()
+let Roll = math.ceil(math.random()
 "7);
 
-console.log("actual roll: " + roll);
+console.log("actual Roll: " + Roll);
 if(roll ===7){
- console.log(rigged);   
+ console.log(Rigged);   
 } else {
-    console.log(roll);
+    console.log(Roll);
 }
 
-console.log("actual roll: " + roll);
+console.log("actual Roll: " + Roll);
 
