@@ -1,12 +1,12 @@
-const promt = require('promt-sync')({sigint: true});
+/* custom roll
 
-let Player = prompt("roll the dice:")
+custom-roll.js
+Create a new file, custom-roll.js, that prompts the user for how many sides the dice should have, then simulates a roll of a dice with that many sides.
+*/
 
-rollthedice = math.floor(math.random ()*1); //0 or 1
+const prompt = require('prompt-sync')({sigint: true});
 
-if(rollthedice === 0){
-    console.log("heads");
-    else if(rollthedice === 2){
-        ("tails");
-    }
-}
+let numberOfsides = Number(prompt("how many sides does the dice have?"))
+
+console.log(`below is a random roll of a dice with ${numberOfsides} sides:`)
+console.log(Math.ceil(Math.random()*numberOfsides))
